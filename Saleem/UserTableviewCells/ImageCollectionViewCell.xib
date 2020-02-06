@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="Saleem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qEL-0z-qhG">
+                        <rect key="frame" x="1" y="1" width="14" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="wrp-hT-o6H"/>
+                            <constraint firstAttribute="width" constant="14" id="ww0-A2-mrp"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userImage" translatesAutoresizingMaskIntoConstraints="NO" id="Lvv-o7-Pm4">
+                        <rect key="frame" x="1" y="15" width="103" height="95"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="95" id="OoD-rF-9qB"/>
+                            <constraint firstAttribute="width" constant="103" id="qoC-se-DHc"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Lvv-o7-Pm4" firstAttribute="top" secondItem="qEL-0z-qhG" secondAttribute="bottom" id="DGw-5Z-W70"/>
+                <constraint firstItem="qEL-0z-qhG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="aOA-4d-fzt"/>
+                <constraint firstItem="Lvv-o7-Pm4" firstAttribute="leading" secondItem="qEL-0z-qhG" secondAttribute="leading" id="eId-4v-qYu"/>
+                <constraint firstItem="qEL-0z-qhG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="k02-u6-Skt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="337" height="110"/>
+            <connections>
+                <outlet property="checkImageView" destination="qEL-0z-qhG" id="4e5-wA-FAb"/>
+                <outlet property="docImage" destination="Lvv-o7-Pm4" id="oAq-cf-Ejz"/>
+            </connections>
+            <point key="canvasLocation" x="362.39999999999998" y="171.81409295352324"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="userImage" width="69" height="69"/>
+    </resources>
+</document>

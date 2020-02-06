@@ -1,0 +1,355 @@
+/* 
+  LocalizableMobileFix.strings
+  Saleem
+
+  Created by Suman Guntuka on 14/05/19.
+  Copyright © 2019 volive. All rights reserved.
+*/
+
+
+"CUSTOMER"="عميل";
+"PROVIDER"="مقدم الخدمة";
+
+//login
+"Welcome"="مرحباَ";
+"Sign in to continue"="تسجيل الدخول للأستمرار";
+"User name or E-mail"="البريد الألكتروني أو الأسم";
+"Password"="كلمة المرور";
+"Forgot Your Password?"="هل نسيت كلمة المرور ؟";
+"SIGN IN"="تسجيل الدخول";
+
+"Don't have an account?"="ليس لديك حساب ؟";
+"Sign up Now!"="تسجيل الدخول الأن";
+
+//signup
+"Welcome to"="مرحباَ";
+"Sign up to Create account"="أنشاء حساب";
+"Full name"="الإسم كامل";
+
+"Gender"="الجنس";
+"E-mail Address"="البريد الألكتروني";
+"Phone number"="رقم الجوال";
+"Create password"="كلمة المرور";
+"Confirm password"="تأكيد كلمة المرور";
+"I agree to the"="الموافقة على";
+"Terms and Conditions"="الشروط والأحكام";
+"SIGN UP"="إنشاء حساب";
+
+"Already have an account?"="لديك حساب";
+"Sign in Now!"="تسجيل الدخول الأن";
+
+//verification
+"Verification"="التحقق";
+"Verify your mobile"="التحقق من رقم الجوال";
+"Enter your OTP CODE here"="أدخل رمز التحقق هنا";
+"Don't receive code?"="لم تتلقى رمز ؟";
+"Resend code"="أعادة أرسال رمز التحقق";
+
+
+//filters
+"Filters"="فلتر";
+"Price"="السعر";
+"Order from date"="تاريخ الطلب من";
+"Order to date"="تاريخ الطلب إلى";
+"Select Status"="تحديد الحالة";
+"APPLY FILTERS"="تنفيذ الفلتر";
+"RESET"="إعادة تعيين";
+
+//orderdetails
+"Your Name"="الأسم";
+"Mobile Number"="رقم الجوال";
+"Order Details"="تفاصيل الطلب";
+"Mobile brand"="نوع الجوال";
+"Model"="مودل";
+"Problem Type"="نوع المشكلة";
+"Issue description"="وصف للمشكلة";
+"SEND REQUEST"="إرسال طلب";
+
+//RequestDetailsVC
+"Request Details"="تفاصيل الطلب";
+"Order No"="رقم الطلب";
+"Date & Time"="الوقت والتاريخ";
+"Service Providers"="مقدم الخدمة";
+
+//My Request
+"My Request"="طلباتي";
+"VIEW DETAILS"="عرض التفاصيل";
+"VIEW INVOICE"="عرض الفاتورة";
+"Status"="الحالة";
+
+//sidemenu
+"HOME"="الصفحة الرئيسية";
+"MY REQUESTS"="طلباتي";
+"MY PROFILE"="الملف الشخصي";
+
+"NOTIFICATIONS"="تنبيهات";
+"TERMS AND CONDITIONS"="الشروط والأحكام";
+"CHANGE LANGUAGE"="تغيير اللغة";
+"PAYMENTS"="الدفع";
+"SIGN OUT"="تسجيل خروج";
+
+//Invoice Details
+"Invoice Details"="تفاصيل الفاتورة";
+"Order Id"="رقم الطلب";
+"Customer Name"="إسم العميل";
+
+"Invoice No"="رقم الفاتورة";
+"Date"="التاريخ";
+"Details"="تفاصيل";
+"Estimated Price"="سعر الخدمة";
+//"السعر المقدر";
+
+"Addition Price"="سعر الإضافة";
+"Sub Total"="المجموع";
+"Discount coupon codes"="كود الخصم";
+"APPLY"="تنفيذ";
+"Enter your coupon code"="أدخل كود الخصم";
+"Coupon"="كوبون";
+"SPECIAL"="خاص";
+"Total Amount"="مجموع المبلغ";
+"CONFIRM & PAY"="تأكيد ودفع";
+
+"Provider Amount"="مبلغ مقدم الخدمة";
+"Admin Price"="مبلغ الإدارة";
+//"سعر المسؤول";
+
+//successful
+"Successful"="بنجاح";
+"Your Payment is Successful"="تم الدفع بنجاح";
+"Give your Rating"="يرجى التقييم";
+"Write Your Comment"="أكتب تعليقك";
+"SUBMIT"="إرسال";
+
+//profile
+"My Profile"="الملف الشخصي";
+
+"Name"="الأسم";
+"Email"="البريد الإلكتروني";
+"Email-Address"="البريد الإلكتروني";
+
+"Mobile Number"="رقم الجوال";
+"Change Password"="تغيير كلمة المرور";
+"Saved Cards"="البطاقات المحفوظة";
+"Password"="كلمة المرور";
+"Confirm Password"="تأكيد كلمة المرور";
+
+//edit card
+"Edit Card"="تعديل البطاق";
+"ENTER YOUR CARD DETAILS"="يرجى إدخال تفاصيل البطاقة";
+"Card Type"="نوع البطاقة";
+"Name on Card"="الأسم على البطاقة";
+"Card Number"="رقم البطاقة";
+"Card Expiry"="تاريخ أنتهاء البطاقة";
+"CVV"="CVV";
+"Securely Save my Card For Future Use"="حفظ رقم البطاقة للأستخدام مستقبلاَ";
+"PAY NOW"="أدفع الأن";
+
+"Add card"="أضافة بطاقة";
+//"Edit Card"="Edit Card";
+
+
+"OK"="نعم";
+"will be added to the total price of the fixing cost for service fee"="سيتم أضافة رسوم الخدمة للمبلغ الإجمالي";
+
+//userdetails
+"CANCEL ORDER"="إلغاء الطلب";
+"TRACK ORDER"="تتبع الطلب";
+
+//Payment
+"Payment"="دفع";
+"Pay by Cash"="الدفع كاش";
+"Pay With Card"="الدفع بالبطاقة";
+"YOUR SAVED CARDS"="البطاقات المحفوظة";
+"ADD CARD"="أضافة بطاقة";
+
+//user home
+"Select Mobile brand"="تحديد نوع الجوال";
+"Select Model"="تحديد الموديل";
+"Select the issue"="تحديد المشكلة";
+"Describe your issue"="وصف المشكلة";
+"CREATE REQUEST"="إنشاء طلب";
+
+//chat
+"Chat"="محادثة";
+"Type here"="أكتب هنا";
+/*
+ ￼Space between the check box and the sentence and change the sentence استلام الطلبات من النساء فقط| to
+ */
+
+
+//providerHome
+"Issues Solved:"="المشاكل المحلولة:";
+"Requests"="الطلبات";
+"Pending"="معلقة";
+"Completed"="مكتملة";
+"Reject"="رفض";
+
+//requests
+"Reject Reason:"="سبب الرفض:";
+//completeddetails
+"Visit date & time"="تاريخ ووقت الزيارة";
+"Estimation amount"="المبلغ التقديري";
+"Reason For Rejection"="سبب الرفض";
+"View Issues"="عرض المشكلة";
+"Fixed Amount"="إجمالي المبلغ";
+
+//pending
+"Track"="تتبع";
+"TRACK"="تتبع";
+"Track customer Location"="تتبع موقع العميل";
+"COMPLETE"="أكتملت";
+"START WORK"="بدء العمل";
+
+//reqdetails
+"REJECT"="رفض";
+"SEND OFFER"="إرسال عرض";
+
+//sendoffer
+"Insert the offer price"="أدخل السعر";
+//rejectoffer
+"REJECT OFFER"="رفض العرض";
+//"Reasons for Rejection"="أسباب الرفض";
+"SEND"="أرسال";
+
+//payments
+"Payments"="الدفع";
+"Order amount"="كمية الطلب";
+"Admin amount"="مبلغ الأدارة";
+"Provider payment"="مبلغ مقدم الخدمة";
+"Payment mode"="طريقة الدفع";
+"Total summary for the month"="ملخص المجموع الشهري";
+"Received amount"="المبلغ المستلم";
+"Remaining balance"="الرصيد المتبقي";
+//filters
+"Percentage"="النسبة المئوية";
+
+//track
+"order confirmed"="تم تأكيد الطلب";
+"on the way"="في الطريق";
+"Arrived"="تم الوصول";
+"Start fixing"="بدء الإصلاح";
+"Fixed"="تم الإصلاح";
+
+"DISTANCE"="المسافة";
+"TIME"="الوقت";
+
+//spprofile
+"ID"="رقم الهوية الشخصية";
+"Birth date"="تاريخ الميلاد";
+"Email"="البريد الإلكتروني";
+
+"Phone number"="رقم الجوال";
+"Certification Documents"="وثائق التصديق";
+"DELETE"="حذف";
+"no documents"="لايوجد ملفات";
+"Upload Documents"="رفع الملفات";
+"Your service location"="موقع  الخدمة";
+"Choose your service location"="أختر موقع الخدمة";
+"Set your service location"="يرجى أدخال موقع الخدمة";
+"CONFIRM LOCATION"="تأكيد الموقع";
+
+//spsignup
+"Sign up to Create account"="إنشاء حساب";
+
+"Individual"="فرد";
+"Company"="شركة";
+"Company number"="رقم الشركة";
+
+//spinvoice
+"Create Invoice"="إنشاء الفاتورة";
+
+"Issue Name"="إسم المشكلة";
+
+//"Estimate price"="السعر التقديري";
+//"Addition price"="سعر الإضافة";
+"Add Service"="أضافة خدمة";
+//"Sub Total"="المجموع الفرعي";
+//"Total Amount"="المبلغ الإجمالي";
+
+//accept order
+"Are you sure you want to cancel this order?"="هل أنت متأكد من إلغاء الطلب";
+"NO"="لا";
+"YES"="نعم";
+
+//CONFIRM OFFER
+"Distance"="المسافة";
+//"Price"="السعر";
+"ACCEPT OFFER"="قبول العرض";
+
+//issuelist
+"LIST OF ISSUES"="أنواع المشاكل";
+
+//add issues
+
+"Add issue name"="أضافة اسم المشكلة";
+//"Enter Price"="Enter Price";
+"Add Price"="أضافة السعر";
+//status
+"pending"="معلقة";
+"completed"="مكتملة";
+"in progress"="تحت المراجعة";
+"cancelled"="ملغاة";
+
+
+//ALERTS
+"Enter Email To Reset Your Password"="أدخل البريد الألكتروني لأعادة تعيين كلمة المرور";
+"Enter your Email"="أدخل البريد الألكتروني";
+"Please ensure you have proper internet connection"="يرجى التأكد من الأتصال بالأنترنت";
+"English"="الإنجليزية";
+
+"Done"="تم";
+"Cancel"="إلغاء";
+
+"Alert"="تنبيه";
+//"Are you sure want to cancel the order"="هل تريد بالتأكيد إلغاء الطلب؟";
+"No Available service providers. Do you want to resend  request?"="لايوجد مقدمين خدمة متاحين , هل تريد أعادة أرسال الطلب؟";
+"Save"="حفظ";
+
+"Pick Image"="اختيار صورة";
+"Choose a photo from your library"="اختر صورة من مكتبتك";
+"Take a new photo"="التقط صورة جديدة";
+//"Cancel"="إلغاء";
+"No Camera"="لا كاميرا";
+"Sorry, this device has no camera"="عذرا ، هذا الجهاز لا يحتوي على كاميرا";
+"Gallery"="معرض الصور";
+"DONE"="فعله";
+
+"Edit"="تعديل";
+"Please Add Price"="يرجى أضافة السعر";
+"Please Add IssueName"="يرجى أضافة أسم المشكلة";
+"Please Enter description"="يرجى أدخال الوصف";
+
+"Male"="ذكر";
+"Female"="أنثى";
+"Company name"="اسم الشركة";
+"Receive female orders only"="استلام الطلبات من النساء فقط";
+"Send order to female only"="إرسال طلب للإناث فقط";
+
+"Notifications"="تنبيهات";
+
+"Document uploaded successfully"="تم رفع الملف بنجاح";
+"Documents uploaded successfully"="تم رفع الملفات بنجاح";
+
+"Input Number"="رقم الإدخال";
+"Description"="الوصف";
+"SEND INVOICE"="إرسال الفاتورة";
+"Starts With 966"="يبدأ بـ 966";
+
+"create account"="إنشاء حساب";
+"your device problem is fixed"="تم إصلاح مشكلة جهازك";
+"1055482876"="1055482876";
+"1440-10-23"="1440-10-23";
+"provider@yopmail.com"="provider@yopmail.com";
+"user@yopmail.com"="user@yopmail.com";
+"0518420022"="0518420022";
+"1"="1";
+"2"="2";
+"3"="3";
+"4"="4";
+
+"please generate invoice to complete the request"="يرجى أخراج الفاتورة لإكمال الطلب";
+"GENERATE INVOICE"="أستخراج الفاتورة";
+"WAITING FOR INVOICE"="بإنتظار الفاتورة";
+"Please Enter The Reason For Cancellation"="يرجى إدخال سبب الإلغاء";
+"Write a Reason"="اكتب السبب";
+"This service is unavailable"="هذه الخدمة غير متوفرة";
