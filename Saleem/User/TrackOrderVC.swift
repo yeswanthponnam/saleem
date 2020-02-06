@@ -74,6 +74,7 @@ class TrackOrderVC: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegat
         _locationManager.activityType = .automotiveNavigation
         _locationManager.distanceFilter = 10.0
         print("location Manager")
+          print("location Manager is working")
         return _locationManager
 
     }()
